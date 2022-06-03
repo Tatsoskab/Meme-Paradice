@@ -136,3 +136,25 @@ html{
     border-radius:2rem;
 }
 }
+
+@media (max-height:660px){
+    .Back{
+        width:50vh;
+        height:fit-content;
+    }
+    .Content{
+        padding:5px;
+    }
+    }
+    @media (max-height:530px){
+        .Back{
+            width:50vh;
+            height:55vh;
+        }
+        .Content{
+            padding:5px;
+        }
+        .Contact p{
+            font-size:0.99rem;
+        }
+        }
